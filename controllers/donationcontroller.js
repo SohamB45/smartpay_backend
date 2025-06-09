@@ -1,5 +1,5 @@
 // const donation = require("../models/donation");
-const Donation = require("../models/donation");
+const donation = require("../models/donation");
 const Razorpay = require("razorpay");
 const crypto = require("crypto");
 
