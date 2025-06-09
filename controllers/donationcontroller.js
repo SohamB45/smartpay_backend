@@ -1,7 +1,8 @@
 // const donation = require("../models/donation");
-const donation = require("../models/donation");
+const Donation = require("../models/donation");
 const Razorpay = require("razorpay");
 const crypto = require("crypto");
+
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
